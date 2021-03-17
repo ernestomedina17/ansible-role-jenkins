@@ -3,12 +3,15 @@ dependencies: []
 
 galaxy_info:
   role_name: jenkins
-  author: geerlingguy
+  author: ernestomedina17
   description: Jenkins CI
-  company: "Midwestern Mac, LLC"
+  company: "Medina Corp"
   license: "license (BSD, MIT)"
   min_ansible_version: 2.4
   platforms:
+    - name: Amazon
+      versions:
+        - 2
     - name: EL
       versions:
         - 7
